@@ -1,0 +1,10 @@
+.header {
+  background-color: #16a085;
+  color: white;
+  padding: 24px;
+}
+
+.header__name {
+  font-size: 28px;
+  font-weight: bold;
+}

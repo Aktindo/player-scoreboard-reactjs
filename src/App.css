@@ -1,38 +1,62 @@
-.App {
+.add-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.add-form__input {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.add-form__button-icon {
+  margin-right: 2px;
+}
+
+.players {
+  display: grid;
+  justify-content: center;
+}
+
+.players__card {
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 20px;
+  width: 28rem;
+  margin-bottom: 5px;
+}
+
+.players__card-header {
+  display: flex;
+}
+
+.players__card-title {
+  margin-right: 5px;
+  color: #16a085;
+  font-size: 28px;
+}
+
+.players__card-expand-btn {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.players__empty-text {
+  font-size: 28px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-form {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  .add-form__button {
+    margin-top: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.players__card-expanded-input {
+  margin-top: 10px;
 }
